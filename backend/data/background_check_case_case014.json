@@ -1,0 +1,75 @@
+{
+  "caseId": "case-014",
+  "orderId": "cand-013",
+  "candidateId": "cand-013",
+  "candidateName": "William Robinson",
+  "candidateEmail": "william.robinson@company.com",
+  "owner": "manager@company.com",
+  "startDate": "2026-01-10T11:36:37.924Z",
+  "checks": [
+    {
+      "checkId": "check-1770032197924-IDENTITY_VERIFICATION",
+      "checkType": "IDENTITY_VERIFICATION",
+      "status": "NEW",
+      "statusLabel": "New",
+      "isRequired": true,
+      "lastUpdated": "2026-02-02T11:36:37.924Z",
+      "updatedAt": "2026-02-02T11:36:37.924Z"
+    },
+    {
+      "checkId": "check-1770032197924-CRIMINAL_HISTORY_CHECK",
+      "checkType": "CRIMINAL_HISTORY_CHECK",
+      "status": "NEW",
+      "statusLabel": "New",
+      "isRequired": true,
+      "lastUpdated": "2026-02-02T11:36:37.924Z",
+      "updatedAt": "2026-02-02T11:36:37.924Z"
+    },
+    {
+      "checkId": "check-1770032197924-EMPLOYMENT_VERIFICATION",
+      "checkType": "EMPLOYMENT_VERIFICATION",
+      "status": "NEW",
+      "statusLabel": "New",
+      "isRequired": true,
+      "lastUpdated": "2026-02-02T11:36:37.924Z",
+      "updatedAt": "2026-02-02T11:36:37.924Z"
+    },
+    {
+      "checkId": "check-1770032197924-EDUCATION_VERIFICATION",
+      "checkType": "EDUCATION_VERIFICATION",
+      "status": "NEW",
+      "statusLabel": "New",
+      "isRequired": false,
+      "lastUpdated": "2026-02-02T11:36:37.924Z",
+      "updatedAt": "2026-02-02T11:36:37.924Z"
+    },
+    {
+      "checkId": "check-1770032197924-RIGHT_TO_WORK",
+      "checkType": "RIGHT_TO_WORK",
+      "status": "NEW",
+      "statusLabel": "New",
+      "isRequired": true,
+      "lastUpdated": "2026-02-02T11:36:37.924Z",
+      "updatedAt": "2026-02-02T11:36:37.924Z"
+    }
+  ],
+  "overallStatus": "NEW",
+  "overallScore": "PENDING",
+  "adminDecision": "IN_PROGRESS",
+  "slaRisk": false,
+  "timeline": [
+    {
+      "id": "event-1770032197924-1",
+      "eventType": "CREATED",
+      "title": "Case Created",
+      "timestamp": "2026-02-02T11:36:37.924Z",
+      "actor": "system@company.com",
+      "metadata": {
+        "source": "lever-lite-import"
+      }
+    }
+  ],
+  "securityClassification": "SENSITIVE",
+  "createdAt": "2026-02-02T11:36:37.924Z",
+  "updatedAt": "2026-02-02T11:36:37.924Z"
+}

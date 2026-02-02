@@ -1,0 +1,22 @@
+{
+  "caseId": "case_001",
+  "candidateId": "cand_12345",
+  "candidateName": "John Doe",
+  "candidateEmail": "john.doe@example.com",
+  "orderId": "order_98765",
+  "currentStatus": "IN_PROGRESS",
+  "currentResult": "PENDING",
+  "normalizedStatus": "PENDING",
+  "checks": {
+    "identityVerified": false,
+    "criminalHistoryChecked": false,
+    "employmentVerified": false,
+    "educationVerified": false,
+    "rightToWorkVerified": false
+  },
+  "adminComment": null,
+  "submittedBy": null,
+  "submittedAt": null,
+  "completedAt": null,
+  "securityClassification": "SENSITIVE"
+}

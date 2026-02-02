@@ -1,0 +1,75 @@
+{
+  "caseId": "case-010",
+  "orderId": "cand-009",
+  "candidateId": "cand-009",
+  "candidateName": "Robert Taylor",
+  "candidateEmail": "robert.taylor@company.com",
+  "owner": "manager@company.com",
+  "startDate": "2026-01-22T11:36:37.918Z",
+  "checks": [
+    {
+      "checkId": "check-1770032197918-IDENTITY_VERIFICATION",
+      "checkType": "IDENTITY_VERIFICATION",
+      "status": "NEW",
+      "statusLabel": "New",
+      "isRequired": true,
+      "lastUpdated": "2026-02-02T11:36:37.918Z",
+      "updatedAt": "2026-02-02T11:36:37.918Z"
+    },
+    {
+      "checkId": "check-1770032197918-CRIMINAL_HISTORY_CHECK",
+      "checkType": "CRIMINAL_HISTORY_CHECK",
+      "status": "NEW",
+      "statusLabel": "New",
+      "isRequired": true,
+      "lastUpdated": "2026-02-02T11:36:37.918Z",
+      "updatedAt": "2026-02-02T11:36:37.918Z"
+    },
+    {
+      "checkId": "check-1770032197918-EMPLOYMENT_VERIFICATION",
+      "checkType": "EMPLOYMENT_VERIFICATION",
+      "status": "NEW",
+      "statusLabel": "New",
+      "isRequired": true,
+      "lastUpdated": "2026-02-02T11:36:37.918Z",
+      "updatedAt": "2026-02-02T11:36:37.918Z"
+    },
+    {
+      "checkId": "check-1770032197918-EDUCATION_VERIFICATION",
+      "checkType": "EDUCATION_VERIFICATION",
+      "status": "NEW",
+      "statusLabel": "New",
+      "isRequired": false,
+      "lastUpdated": "2026-02-02T11:36:37.918Z",
+      "updatedAt": "2026-02-02T11:36:37.918Z"
+    },
+    {
+      "checkId": "check-1770032197918-RIGHT_TO_WORK",
+      "checkType": "RIGHT_TO_WORK",
+      "status": "NEW",
+      "statusLabel": "New",
+      "isRequired": true,
+      "lastUpdated": "2026-02-02T11:36:37.918Z",
+      "updatedAt": "2026-02-02T11:36:37.918Z"
+    }
+  ],
+  "overallStatus": "NEW",
+  "overallScore": "PENDING",
+  "adminDecision": "IN_PROGRESS",
+  "slaRisk": false,
+  "timeline": [
+    {
+      "id": "event-1770032197918-1",
+      "eventType": "CREATED",
+      "title": "Case Created",
+      "timestamp": "2026-02-02T11:36:37.918Z",
+      "actor": "system@company.com",
+      "metadata": {
+        "source": "lever-lite-import"
+      }
+    }
+  ],
+  "securityClassification": "SENSITIVE",
+  "createdAt": "2026-02-02T11:36:37.918Z",
+  "updatedAt": "2026-02-02T11:36:37.918Z"
+}
